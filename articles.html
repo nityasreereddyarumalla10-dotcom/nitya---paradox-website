@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradox | Articles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="articles">
+    <header class="site-header" id="site-header">
+      <nav class="navbar container">
+        <a class="logo" href="index.html">Paradox</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html" class="active">Articles</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main container page-spacing">
+      <section class="section-heading fade-up">
+        <p class="eyebrow">All Articles</p>
+        <h1>Insights Across Contrasts</h1>
+        <p>Filter ideas by discipline and discover new tensions worth exploring.</p>
+      </section>
+
+      <section class="filters fade-up" id="filter-group">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Philosophy">Philosophy</button>
+        <button class="filter-btn" data-category="Technology">Technology</button>
+        <button class="filter-btn" data-category="Culture">Culture</button>
+        <button class="filter-btn" data-category="Science">Science</button>
+      </section>
+
+      <section class="card-grid" id="articles-grid"></section>
+
+      <section class="pagination fade-up" aria-label="Pagination controls">
+        <button class="page-btn" id="prev-page">Previous</button>
+        <p id="page-indicator">Page 1</p>
+        <button class="page-btn" id="next-page">Next</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
