@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradox | Subscribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="site-header">
+      <nav class="navbar container">
+        <a class="logo" href="index.html">Paradox</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="subscribe.html" class="active">Subscribe</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main container page-spacing">
+      <section class="subscribe-section fade-up">
+        <p class="eyebrow">Join the Journal</p>
+        <h1>Stay Informed on Every Contradiction</h1>
+        <p class="tagline">Weekly essays and deep reads. No noise, no spam—just meaningful ideas.</p>
+        <form class="subscribe-form" action="#" method="post">
+          <label for="email" class="sr-only">Email address</label>
+          <input id="email" type="email" placeholder="Enter your email" required />
+          <button type="submit" class="cta-button">Subscribe</button>
+        </form>
+        <p class="privacy-note">We respect your privacy. Unsubscribe anytime with one click.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
